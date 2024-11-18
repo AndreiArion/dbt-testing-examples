@@ -53,19 +53,13 @@ Install dbt following the [official documentation](https://docs.getdbt.com/docs/
 Spin up a Postgres database in a container
 
 ```
-docker-compose up
+docker compose up
 ```
 
 Setup the environment variables
 
 ```
-cp .env.example .env
-```
-
-Setup the dbt profile
-
-```
-cp profiles.example.yml profiles.yml
+ source .env
 ```
 
 Install dbt dependencies

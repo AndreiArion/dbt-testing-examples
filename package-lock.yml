@@ -1,12 +1,12 @@
 packages:
-- package: dbt-labs/dbt_utils
-  version: 1.1.1
-- package: calogica/dbt_expectations
-  version: 0.10.3
-- git: https://github.com/EqualExperts/dbt-unit-testing
-  revision: e54329c3971c8c397f284a36de6a627832a24263
-- package: elementary-data/elementary
-  version: 0.14.1
-- package: calogica/dbt_date
-  version: 0.10.0
-sha1_hash: 2081cff4f63e8b047c94115e01ab4bd6e705d3e1
+  - package: dbt-labs/dbt_utils
+    version: 1.3.0
+  - package: calogica/dbt_expectations
+    version: 0.10.4
+  - git: https://github.com/EqualExperts/dbt-unit-testing
+    revision: 119aaee2c265b693876a63de72b04c308cd3e3e2
+  - package: elementary-data/elementary
+    version: 0.16.1
+  - package: calogica/dbt_date
+    version: 0.10.1
+sha1_hash: 2e3cabca646f5893f71f4a80eac5a28c76291e5a
